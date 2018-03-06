@@ -1,6 +1,6 @@
-# PROJECT_NAME
+# create-nodejs-app
 
-**PROJECT_DESCRIPTION**
+**Create NodeJS Application**
 
 ### Install
     `yarn install`
