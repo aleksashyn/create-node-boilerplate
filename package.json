@@ -1,7 +1,7 @@
 {
-  "name": "create-nodejs-app",
+  "name": "create-node-boilerplate",
   "version": "0.0.1",
-  "description": "Create Nodejs project",
+  "description": "Create NodeJS project",
   "keywords": [
     "nodejs",
     "mocha",
@@ -23,11 +23,11 @@
   "author": "Vasyl Aleksashyn <vasyl.aleksashyn@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aleksashyn/create-nodejs-app.git"
+    "url": "https://github.com/aleksashyn/create-node-boilerplate.git"
   },
-  "homepage": "https://github.com/aleksashyn/create-nodejs-app",
+  "homepage": "https://github.com/aleksashyn/create-node-boilerplate",
   "bugs": {
-    "url": "https://github.com/aleksashyn/create-nodejs-app/issues"
+    "url": "https://github.com/aleksashyn/create-node-boilerplate/issues"
   },
   "license": "MIT",
   "private": false,

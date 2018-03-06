@@ -1,30 +1,9 @@
-# create-nodejs-app
+# create-node-boilerplate
 
-**Create NodeJS Application**
+**Create NodeJS Project**
 
 ### Install
-    `yarn install`
+    `npm install -g create-node-boilerplate`
 
-### Run
-
-**Development mode**  
-
-    `yarn run start:dev`
-
-**Production mode**  
-
-    `yarn run start`
-
-### Test
-
-**Run test**  
-
-    `yarn test`
-
-**Run test with coverage**  
-
-    `yarn run test:coverage`
-
-### Precommit hook
-* eslint
-* prettier
+### Used
+    `create-node-boilerplate </project/path>`
