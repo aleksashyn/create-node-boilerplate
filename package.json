@@ -1,6 +1,6 @@
 {
   "name": "create-node-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create NodeJS project",
   "keywords": [
     "nodejs",
@@ -71,6 +71,18 @@
     ]
   },
   "pre-commit": "precommit",
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
+    ]
+  },
   "dependencies": {
     "iniparser": "^1.0.5",
     "lodash": "^4.17.5",
@@ -78,6 +90,10 @@
     "through2": "^2.0.3"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
     "chai": "^4.1.2",
     "eslint": "^4.18.1",
     "eslint-config-airbnb-base": "^12.1.0",
