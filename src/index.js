@@ -4,11 +4,7 @@ const lodash = require('lodash');
 const gitConfig = require('./git');
 const copyTemplate = require('./templateGenerator');
 
-const destPath = path.resolve(
-  __dirname,
-  '..',
-  path.parse(process.argv[0]).name === 'node' ? process.argv[2] : process.argv[1]
-);
+const destPath = path.resolve(process.argv[2]);
 
 const project = {
   name: '',

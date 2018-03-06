@@ -6,4 +6,4 @@
     `npm install -g create-node-boilerplate`
 
 ### Used
-    `create-node-boilerplate </project/path>`
+    `create-node-boilerplate </absolute/project/path>`
