@@ -1,6 +1,6 @@
 {
   "name": "create-node-boilerplate",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Create NodeJS project",
   "keywords": [
     "nodejs",
@@ -37,6 +37,9 @@
     "test:coverage": "nyc --reporter=html mocha --recursive",
     "lint:js": "eslint ./src",
     "precommit": "lint-staged"
+  },
+  "bin": {
+    "create-node-boilerplate": "./bin/create-node-boilerplate"
   },
   "eslintConfig": {
     "root": true,
